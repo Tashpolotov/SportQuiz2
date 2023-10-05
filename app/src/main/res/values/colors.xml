@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg">#162E79</color>
+    <color name="bg_bottom_menu">#001555</color>
+    <color name="selected_icon_color">#FF7B20</color>
+    <color name="unselected_icon_color">#FFFFFF</color>
+    <color name="dark_blue">#001555</color>
+    <color name="lith_blue">#162E79</color>
+    <color name="gradient1">#FEE2CF</color>
+    <color name="gradient2">#FE9A54</color>
+    <color name="color_home_bg_const">#5175E7</color>
+    <color name="card1">#0289E1</color>
+    <color name="card2">#FE5196</color>
+    <color name="card3">#34A21F</color>
+    <color name="card4">#FE9A54</color>
+    <color name="red">#ED0622</color>
+    <color name="card_bg">#FF7B20</color>
+    <color name="result_fragment_bg">#2D49A1</color>
+    <color name="grey">#D7595B61</color>
+</resources>
