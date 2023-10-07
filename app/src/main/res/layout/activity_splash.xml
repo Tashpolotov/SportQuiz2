@@ -4,17 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg"
+    android:background="@drawable/bg_sport"
     tools:context=".activity.SplashActivity">
 
-    <com.airbnb.lottie.LottieAnimationView
+    <ImageView
         android:id="@+id/lottieAnim"
         android:layout_width="380dp"
         android:layout_height="400dp"
         android:layout_centerInParent="true"
         android:layout_marginHorizontal="20dp"
-        app:lottie_autoPlay="true"
-        app:lottie_rawRes="@raw/lotti"
+        android:src="@drawable/logo"
         />
 
 

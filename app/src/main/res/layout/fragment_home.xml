@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg"
+    android:background="@drawable/bg_sport"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.HomeFragment">
 
@@ -21,39 +21,30 @@
             app:layout_constraintBottom_toBottomOf="parent">
 
 
-            <androidx.cardview.widget.CardView
-                android:id="@+id/card_view_1"
-                android:layout_width="match_parent"
-                android:layout_height="340dp"
-                android:backgroundTint="@color/bg"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:cardCornerRadius="20dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginHorizontal="10dp"
-                app:layout_constraintEnd_toEndOf="parent">
 
-                <com.airbnb.lottie.LottieAnimationView
+
+                <ImageView
                     android:id="@+id/lottieAnim"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_centerInParent="true"
-                    android:layout_marginHorizontal="20dp"
-                    app:lottie_autoPlay="true"
-                    app:lottie_rawRes="@raw/lotti"
+                    android:layout_height="340dp"
+                    android:src="@drawable/logo"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginHorizontal="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
                     />
 
-            </androidx.cardview.widget.CardView>
 
             <TextView
                 android:id="@+id/tv_popular_game"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@id/card_view_1"
+                app:layout_constraintTop_toBottomOf="@id/lottieAnim"
                 app:layout_constraintStart_toStartOf="parent"
                 android:text="@string/popular_game"
                 android:textSize="30sp"
-                android:textColor="@color/white"
+                android:textColor="@color/dark_blue"
                 android:layout_marginTop="14dp"
                 android:layout_marginStart="10dp"/>
 
