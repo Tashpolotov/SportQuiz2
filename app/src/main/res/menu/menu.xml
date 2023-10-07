@@ -12,11 +12,4 @@
         android:title="@string/favourite"
         android:icon="@drawable/ic_like"
         />
-
-    <item
-        android:id="@+id/result"
-        android:title="@string/result"
-        android:icon="@drawable/ic_result"
-        />
-
 </menu>

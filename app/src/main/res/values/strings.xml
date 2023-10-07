@@ -23,4 +23,5 @@
     <string name="are_sure_delete">Are you sure you want to delete this item?</string>
     <string name="cansel">Cancel</string>
     <string name="del">Delete</string>
+    <string name="questions_text">Questions:</string>
 </resources>
